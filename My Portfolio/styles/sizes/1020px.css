@@ -1,0 +1,94 @@
+@media screen and (max-width: 1020px) {
+    nav {
+        font-size: 1.3em;
+        justify-content: center;
+    }
+
+    nav ul img {
+        width: 1.3em;
+        height: 1.3em;
+    }
+    
+    main {
+        margin: 15vh 15vw;
+    }
+
+    main div p {
+        width: 100%;
+        font-size: 1.1em;
+    }
+
+    main div .hello {
+        font-size: 1.3em;
+    }
+
+    main h1 {
+        font-size: 4em;
+    }
+
+    main div h2 {
+        font-size: 3em;
+    }
+
+    main #checkOutButton {
+        font-size: 1em;
+        width: 11em;
+    }
+
+    #socialLinks img {
+        margin-left: 0.5rem;
+        height: 1.5em;
+        width: 1.5em;
+    }
+
+    #emailLink {
+        margin-right: 0.5rem;
+        font-size: 1em;
+    }
+    #socialLinks img {
+        margin-left: 3rem;
+    }
+
+    #emailLink {
+        margin-right: 3rem;
+    }
+
+    #formContainer form input {
+        font-size: 1.2em;
+        width: 25em;
+    }
+
+    #formContainer form textarea {
+        font-size: 1.2em;
+        width: 31em;
+        height: 10em;
+    }
+
+    #formContainer form button {
+        font-size: 1em;
+        width: 10em;
+    }
+
+}
+
+@media screen and (max-width: 875px) {
+
+    main {
+        margin: 15vh 15vw;
+    }
+
+
+    .project-container h2 {
+        display: none;
+    }
+
+    .project-container #projectMediaIcons img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .project-container {
+        margin-left: 15vw;
+    }
+}
