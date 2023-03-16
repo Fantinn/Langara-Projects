@@ -1,0 +1,47 @@
+header, nav, main, footer, label, p, span {
+    font-family: "Benton Sans Book", "Benton Sans Book", sans-serif; 
+}
+
+header {
+    color: #070707;
+}
+
+h1 {
+    color: #070707;
+    font-size: 40px;
+}
+
+h2 {
+    color: #070707;
+    font-size: 36px;
+}
+
+p, span {
+    color: #555555;;
+    font-size: 14px;
+}
+
+footer {
+    color: #070707;
+}
+
+label {
+    color: #555555;
+}
+
+a:link {
+    color: #555555;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #555555;
+}
+  
+a:hover {
+    color: #070707;
+}
+  
+a:active {
+    color: #555555;
+}

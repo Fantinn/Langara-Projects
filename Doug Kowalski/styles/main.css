@@ -1,0 +1,116 @@
+header {
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.nav-wrapper {
+    display: grid;
+    width: 10%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+
+.link {
+    grid-row: 1;
+}
+
+.gallery-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.gallery-photos img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+    border: 2px solid #E9E9E9;
+    border-radius: 8px;
+}
+
+.gallery-photos img.expanded {
+    width: auto !important;
+    height: auto !important;
+    max-width: 80vw !important;
+    max-height: 80vh !important;
+    margin: 0 !important;
+    border: 10px solid #CECECE !important;
+    border-radius: 8px !important;
+    object-fit: contain !important;
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 1000 !important;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about {
+    width: 500px;
+    margin: auto;
+}
+
+.aboutHeader, .contactHeader {
+    text-align: center;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+input, textarea, button {
+    width: 100%;
+    min-width: 50%;
+    padding: 12px 20px;
+    background-color: transparent;
+    border: 1px solid #555555;
+    color: #555555;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 20px;
+    text-align: center;
+    font-size: small;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 99%;
+    height: 20px;
+    text-align: center;
+    font-size: small;
+}
