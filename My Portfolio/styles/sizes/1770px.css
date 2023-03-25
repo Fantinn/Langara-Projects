@@ -1,0 +1,44 @@
+@media screen and (max-width: 1770px) {
+    nav {
+        font-size: 1.4em;
+    }
+
+    nav ul img {
+        width: 1.4em;
+        height: 1.4em;
+    }
+    
+    main {
+        margin: 15vh 20vw;
+    }
+
+    main div p {
+        width: 120%;
+        font-size: 1.4em;
+    }
+
+    main div .hello {
+        font-size: 1.4em;
+    }
+
+    main h1 {
+        font-size: 5.5em;
+    }
+
+    main div h2 {
+        font-size: 4.5em;
+    }
+
+    main #checkOutButton {
+        font-size: 1.3em;
+    }
+
+
+    #socialLinks img {
+        margin-left: 5rem;
+    }
+
+    #emailLink {
+        margin-right: 5rem;
+    }
+}

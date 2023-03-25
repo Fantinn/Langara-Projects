@@ -1,0 +1,49 @@
+.dark {
+    background-color: #12232E;
+}
+
+.dark header h1{
+    color: #EEFBFB;
+}
+
+.dark nav a {
+    color: #EEFBFB;
+}
+
+.dark main {
+    color: #EEFBFB;
+}
+
+.dark main div .hello {
+    color: #007CC7;
+}
+
+.dark #emailLink a {
+    color: #EEFBFB;
+}
+
+.dark #emailLink a:hover {
+    color: #4DA8DA;
+}
+
+.dark #formContainer form input {
+    background-color: #EEFBFB;
+    color: #203647;
+}
+
+.dark #formContainer form textarea {
+   background-color: #EEFBFB;
+   color: #203647;
+}
+
+.dark #formContainer ::placeholder {
+    color: #203647;
+}
+
+.dark .project-container img {
+    border: 0em solid #EEFBFB;
+}
+
+.dark .videoContainer #video {
+    border: 0.2em solid #EEFBFB;
+}

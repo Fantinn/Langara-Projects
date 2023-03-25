@@ -1,0 +1,75 @@
+@media screen and (max-width: 670px) {
+    nav {
+        font-size: 1.2em;
+        justify-content: center;
+    }
+
+    nav ul li {
+        width: 4em;
+    }
+
+    nav ul img {
+        width: 1.2em;
+        height: 1.2em;
+    }
+    
+    main {
+        margin: 15vh 15vw;
+    }
+
+    main div p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    main h1 {
+        font-size: 3em;
+    }
+
+    main div h2 {
+        font-size: 2em;
+    }
+
+    main #checkOutButton {
+        font-size: 1em;
+        width: 11em;
+        padding: 0.5em;
+    }
+
+    #socialLinks img {
+        margin-left: 0.5rem;
+    }
+
+    #emailLink {
+        margin-right: 0.5rem;
+    }
+    
+    #formContainer form input {
+        font-size: 1.1em;
+        width: 25em;
+    }
+
+    #formContainer form textarea {
+        font-size: 1.1em;
+        width: 31em;
+        height: 10em;
+    }
+
+    #formContainer form button {
+        font-size: 0.9em;
+        width: 10em;
+    }
+
+    .project-container {
+        margin-left: 10vw;
+    }
+
+    .project-container h2 {
+        display: none;
+    }
+
+    .project-container .projectMediaIcons img{
+        display: none;
+    }
+
+}
